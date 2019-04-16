@@ -1,0 +1,89 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #7a9fce;
+}
+
+.top_bar{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  height: 5em;
+  width: 100%;
+  background-color: white;
+  opacity: 0.7;
+  position:fixed;
+  z-index:1;
+  float: top;
+  color: #1c3150;
+  box-shadow: 1px 1px 20px grey;
+  padding-left: 2%;
+  padding-right: 2%;
+  Padding-top: 1%
+}
+
+.science_fellows {
+  margin-right: auto;
+}
+
+.menu {
+  padding: 10px;
+  text-align: center;
+  top: 5px
+}
+
+.central_div{
+  text-align: center;
+}
+
+.central_image{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  height: 40em;
+  width: 40em;
+}
+
+.blurb_div{
+  background-color: white;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.blurb{
+  color: #3f608f;
+  text-align:center;
+  line-height: 1.5;
+  word-spacing: 3px;
+  font-size: 1.3em;
+}
+
+a.menu:visited{
+  text-decoration: none
+  color: #2e23b2
+}
+a.text-link{
+  color: #2e23b2;
+  text-decoration: none;
+}
+
+a.text-link:visited{
+  color: indigo;
+}
+
+a.text-link:hover{
+  text-decoration: underline;
+}
+
+a.text-link:active{
+  text-decoration: underline;
+}
