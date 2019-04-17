@@ -29,6 +29,11 @@ body {
 
 .science_fellows {
   margin-right: auto;
+  text-decoration: none;
+}
+
+.science_fellows:visited {
+  color: #1c3150;
 }
 
 .menu {
@@ -41,49 +46,69 @@ body {
   text-align: center;
 }
 
-.central_image{
+.central_div img{
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em;
-  height: 40em;
-  width: 40em;
+  width: auto;
+  max-height: 500px;
 }
+
 
 .blurb_div{
   background-color: white;
+  color: #3f608f;
   text-align: center;
+  line-height: 1.5;
+  word-spacing: 3px;
+  font-size: 1.3em;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-.blurb{
-  color: #3f608f;
-  text-align:center;
-  line-height: 1.5;
-  word-spacing: 3px;
-  font-size: 1.3em;
+.blurb_div h1 {
+  margin-bottom: 30px;
 }
 
-a.menu:visited{
-  text-decoration: none
-  color: #2e23b2
+.blurb_div h3 {
+  margin: 15px;
+}
+
+.blurb_div p {
+  margin-bottom: 30px;
+}
+
+a.menu {
+  text-decoration: none;
+}
+
+.menu:visited{
+  color: #1c3150;
+}
+
+.menu:hover, .menu:active {
+  text-decoration: underline;
 }
 a.text-link{
   color: #2e23b2;
   text-decoration: none;
 }
 
-a.text-link:visited{
+a.text-link:visited {
   color: indigo;
 }
 
-a.text-link:hover{
+a.text-link:hover {
   text-decoration: underline;
 }
 
-a.text-link:active{
+a.text-link:active {
   text-decoration: underline;
+}
+
+a#current_page {
+  color: #7a9fce;
 }
